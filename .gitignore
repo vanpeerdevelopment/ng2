@@ -7,3 +7,8 @@
 #####################
 node_modules/
 typings/
+
+# typescript        #
+#####################
+**/app/**/*.js
+**/app/**/*.js.map
