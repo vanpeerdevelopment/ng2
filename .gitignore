@@ -1,4 +1,9 @@
 # IDE Intellij files #
-#####################
+######################
 .idea/
 *.iml
+
+# node & npm        #
+#####################
+node_modules/
+typings/
