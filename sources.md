@@ -4,3 +4,4 @@
 * [Resources](https://angular.io/resources/)
 * [Github](https://github.com/angular/angular)
 * [Thoughtram](http://blog.thoughtram.io/)
+* [TypeScript](https://www.typescriptlang.org/)
