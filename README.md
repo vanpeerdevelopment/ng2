@@ -18,3 +18,4 @@ Get to know angular 2 by going throught the official documentation and trying so
 * [Cookbook](https://angular.io/docs/ts/latest/cookbook/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [Angular CLI](https://cli.angular.io/)
+* [RxJS](http://reactivex.io/rxjs/)
