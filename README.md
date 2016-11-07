@@ -17,9 +17,15 @@ Get to know angular 2 by going through the official documentation and trying som
 
 ### Angular CLI
 - [Angular CLI](https://cli.angular.io/)
+- [GitHub](https://github.com/angular/angular-cli)
+- [Reference](https://cli.angular.io/reference.pdf)
 
 ### TypeScript
 - [TypeScript](https://www.typescriptlang.org/)
+- [Documentation](https://www.typescriptlang.org/docs/tutorial.html)
+- [Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+- [Configuration](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+- [Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
 ## To Do
 - [Developer Guide](https://angular.io/docs/ts/latest/guide/)
