@@ -1,15 +1,6 @@
-# [Angular CLI](https://cli.angular.io/)
-
-## Prerequesites (at least)
-- node v4.x.x (v6.8.1)
-- npm v3.x.x (v3.10.8)
-
-## Installation
-`npm install -g angular-cli`
-
 # Cli
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
