@@ -1,12 +1,4 @@
-# [Angular CLI](https://cli.angular.io/)
-
-## Prerequesites (at least)
-- node v4.x.x (v6.8.1)
-- npm v3.x.x (v3.10.8)
-
-## Installation
-`npm install -g angular-cli`
-# Cli
+# CliPersonalized
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
@@ -37,3 +29,9 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## To Do
+- Go over all files
+- Go over all commands
+- Compare with own gulp setup
+- Prune stuff that's not needed
