@@ -1,10 +1,10 @@
-import { CliPage } from './app.po';
+import { CliCleanPage } from './app.po';
 
-describe('cli App', function() {
-  let page: CliPage;
+describe('cli-clean App', function() {
+  let page: CliCleanPage;
 
   beforeEach(() => {
-    page = new CliPage();
+    page = new CliCleanPage();
   });
 
   it('should display message saying app works', () => {

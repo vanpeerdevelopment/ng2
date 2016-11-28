@@ -1,39 +1,65 @@
 # [Angular CLI](https://cli.angular.io/)
-
-## Prerequesites (at least)
+## [Prerequesites](https://github.com/angular/angular-cli#prerequisites) (at least)
 - node v4.x.x (v6.8.1)
 - npm v3.x.x (v3.10.8)
 
-## Installation
+## [Installation](https://github.com/angular/angular-cli#installation)
 `npm install -g angular-cli`
-# Cli
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
+## Commands
+- `ng help`
+- `ng new`, `ng init`
+  * Create new angular-cli project in a new or current directory
+- `ng generate`
+  * generate a component, direcive, pipe, service, class, interface, enum or module
+- `ng lint`
+- `ng test`
+  * `--watch`
+  * `--single-run`
+  * `--code-coverage`
+- `ng build`
+  * `--target`
+  * `--environment`
+- `ng serve`
+  * `--port`
+  * `--proxy-config`
+  * `--target`
+  * `--environment`
+  * `--open`
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Personalization
+## Unit Test
+Use PhantomJS instead of Chrome
+- `npm uninstall -D karma-chrome-launcher`
+- `npm install -D karma-phantomjs-launcher`
+- replace chrome launcher by phantomjs launcher in `karma.conf.js`
 
-## Code scaffolding
+## E2E  
+All end to end testing code using protractor is removed. End to end test will be written in Java using Selenide.
+- Remove `e2e` directory
+- Remove e2e ignore rules in `.gitignore`
+- Remove e2e configuration in `angular-cli.json`
+- Remove e2e scripts in `package.json`
+- `npm uninstall -D protractor`
+- `npm uninstall -D jasmine-spec-reporter`
+- `npm uninstall -D webdriver-manager`
+- Remove `protractor.conf.js`
+- Remove e2e documentation from `README.md`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+# CLI vs Gulp
+- Dependencies
+  * cli: npm
+  * gulp: npm + bower
+- Lint
+  * cli: tslint
+  * gulp: eslint
+- Karma
+  * cli: 
+    + reporter: progress
+    + browser: chrome
+  * gulp: 
+    + reporter: mocha
+    + browser: phantomjs
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# To Do
+- Go over all files
