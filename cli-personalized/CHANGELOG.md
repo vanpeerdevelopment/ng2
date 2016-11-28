@@ -1,4 +1,10 @@
 # Changes
+## Unit Test
+Use PhantomJS instead of Chrome
+- `npm uninstall -D karma-chrome-launcher`
+- `npm install -D karma-phantomjs-launcher`
+- replace chrome launcher by phantomjs launcher in `karma.conf.js`
+
 ## E2E  
 All end to end testing code using protractor is removed. End to end test will be written in Java using Selenide.
 - Remove `e2e` directory
@@ -8,14 +14,29 @@ All end to end testing code using protractor is removed. End to end test will be
 - `npm uninstall -D protractor`
 - `npm uninstall -D jasmine-spec-reporter`
 - `npm uninstall -D webdriver-manager`
-- Remove `.protractor.conf.js`
+- Remove `protractor.conf.js`
 - Remove e2e documentation from `README.md`
 
-## Unit Test
-Use PhantomJS browser instead of chrome
-- `npm uninstall -D karma-chrome-launcher`
-- `npm install -D karma-phantomjs-launcher`
-- replace chrome launcher by phantomjs launcher in `karma.conf.js`
+# Commands
+- `ng help`
+- `ng new`, `ng init`
+  * Create new angular-cli project in a new or current directory
+- `ng generate`
+  * generate a component, direcive, pipe, service, class, interface, enum or module
+- `ng lint`
+- `ng test`
+  * `--watch`
+  * `--single-run`
+  * `--code-coverage`
+- `ng build`
+  * `--target`
+  * `--environment`
+- `ng serve`
+  * `--port`
+  * `--proxy-config`
+  * `--target`
+  * `--environment`
+  * `--open`
 
 # CLI vs Gulp
 - Dependencies
@@ -34,6 +55,3 @@ Use PhantomJS browser instead of chrome
 
 # To Do
 - Go over all files
-- Go over all commands link with gulp setup
-- Compare with own gulp setup
-- Prune stuff that's not needed
